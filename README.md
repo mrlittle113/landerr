@@ -8,17 +8,6 @@ Designed to fit elegantly into a `docker-compose.yml` file.
 
 You can customize the template yourself
 
-## How Simple?
-
-Very simple - one file and less than 100 lines of Python.
-
-## What does it look like?
-
-It's plain and simple.
-
-<!-- ![simple-docker-lamder](simple-docker-lander.png) -->
-
-
 ## Usage
 
 Example `docker-compose.yml` file:
