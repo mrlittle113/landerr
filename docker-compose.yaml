@@ -1,11 +1,12 @@
-version: '3.1'
 services:
-  simple-docker-lander:
-    image: user2k20/landing-page:latest
-    # build: .
+  lander:
+    image: landerr
+    container_name: landerr
     restart: always
     ports:
       - 80:80
+    volumes:
+      - ./template:/usr/src/app/template
     environment:
       CONFIG: |
         site-name: Landing Page
