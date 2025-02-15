@@ -41,9 +41,9 @@ if __name__ == '__main__':
     def index():
         return template("template", config=config, groups=groups)
     
-    @route('static/favicon.ico')
-    def favicon():
-        return static_file('favicon.ico', root='./template')
+    @route('/template/<filename>')
+    def serve_template(filename):
+        return static_file(filename, root="./template")
 
     run(
         server='paste',
