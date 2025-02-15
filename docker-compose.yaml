@@ -1,5 +1,5 @@
 services:
-  lander:
+  landerr:
     image: landerr
     container_name: landerr
     restart: always
