@@ -61,6 +61,15 @@ docker build -t landerr .
 docker compose up
 ```
 
+## Docker Hub image
+
+You can find a prebuild docker image here: [docker/mrlittle113/landerr](https://hub.docker.com/repository/docker/mrlittle113/landerr)
+
+Change the image in docker compose to:
+```
+image: mrlittle113/landerr
+```
+
 ## Forked 
 This repo is forked from https://github.com/chris2k20/simple-docker-lander 
 
