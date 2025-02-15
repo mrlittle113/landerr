@@ -1,4 +1,4 @@
-from bottle import route, run, template, TEMPLATE_PATH
+from bottle import route, run, template, static_file, TEMPLATE_PATH
 import os
 import yaml
 
@@ -40,6 +40,10 @@ if __name__ == '__main__':
     @route('/')
     def index():
         return template("template", config=config, groups=groups)
+    
+    @route('static/favicon.ico')
+    def favicon():
+        return static_file('favicon.ico', root='./template')
 
     run(
         server='paste',

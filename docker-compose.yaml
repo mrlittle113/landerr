@@ -1,7 +1,6 @@
 services:
   landerr:
     image: landerr
-    container_name: landerr
     restart: always
     ports:
       - 80:80
