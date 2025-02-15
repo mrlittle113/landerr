@@ -62,4 +62,8 @@ docker compose up
 ```
 
 ## Forked 
-This repo is forked from benletchford/simple-docker-lander - Thank you for your work! :) 
+This repo is forked from https://github.com/chris2k20/simple-docker-lander 
+
+Origin repo: https://github.com/benletchford/simple-docker-lander
+
+Thank you for your work! :) 
